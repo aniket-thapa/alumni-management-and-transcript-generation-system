@@ -48,6 +48,21 @@ app.use((req, res) => {
   res.redirect('/');
 });
 
+// Keep-Alive Script for Aiven Database
+const keepAliveInterval = 1000 * 60 * 5; // 5 minutes
+
+setInterval(() => {
+  db.query('SELECT 1', (err, results) => {
+    if (err) {
+      console.error('Keep-alive query error:', err);
+      // Optional: Attempt to reconnect if connection is lost
+      // db.connect(); 
+    } else {
+      console.log('Keep-alive query executed. DB connection active.');
+    }
+  });
+}, keepAliveInterval);
+
 // Start database and server
 const PORT = process.env.PORT || 3000;
 db.connect();
