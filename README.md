@@ -1,16 +1,5 @@
 # Alumni Management and Transcript Generation System
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Routes](#routes)
-7. [Contributing](#contributing)
-8. [Contact](#contact)
-
 ## Project Overview
 
 The **Alumni Management and Transcript Generation System** is a web application designed to help universities manage information about alumni, including their current job positions and job history. It also facilitates the generation of transcripts for students.
