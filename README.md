@@ -19,7 +19,6 @@ The **Alumni Management and Transcript Generation System** is a web application 
 - MySQL
 - EJS (Embedded JavaScript)
 - Axios
-- Body-parser
 - Express-session
 - Multer
 
@@ -81,14 +80,6 @@ DB_SSL_CA=
 
 - **Student Routes**: `routes/student.js`
 - **Admin Routes**: `routes/admin.js`
-
-## Contributing
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
 
 ## Contact
 
